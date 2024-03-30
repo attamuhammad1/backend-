@@ -240,7 +240,7 @@ export const getAllPosts = async (req, res) => {
     } catch (error) {
         res.json({
             status: false,
-            message: "internal server error",
+            message: "internal server error get posts",
             error: error.message
         })
 
